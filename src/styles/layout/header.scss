@@ -1,0 +1,17 @@
+.app_header {
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: 22px;
+  display: flex;
+  width: 100%;
+  & > img {
+    margin: auto;
+    cursor: pointer;
+    width: min(154px, 100%);
+    @media (min-width: 600px) {
+      width: min(258px, 100%);
+    }
+  }
+  @media (min-width: 900px) {
+  }
+}
